@@ -34,223 +34,223 @@ if (isset($_COOKIE['foodData'])) {
   <title>Jonh's Kithcen</title>
   <style>
     * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  font-family: "Roboto", sans-serif;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      font-family: "Roboto", sans-serif;
+    }
 
-body {
-  height: 100vh;
-  width: 100%;
-  background: url("img/bg.png");
-}
+    body {
+      height: 100vh;
+      width: 100%;
+      background: url("img/bg.png");
+    }
 
-header {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 1.5rem;
-  color: #00503d;
-}
+    header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 1.5rem;
+      color: #00503d;
+    }
 
-header h1 {
-  align-self: flex-start;
-}
+    header h1 {
+      align-self: flex-start;
+    }
 
-header h2 {
-  color: #535353;
-  text-transform: uppercase;
-  margin-left: 1rem;
-}
+    header h2 {
+      color: #535353;
+      text-transform: uppercase;
+      margin-left: 1rem;
+    }
 
-#order-button {
-  position: absolute;
-  left: 5%;
-  padding: 1.5rem;
-  color: #fff;
-  background-color: #00503d;
-  border-radius: 25px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.367);
-  transition: all 0.2s ease;
-}
+    #order-button {
+      position: absolute;
+      left: 5%;
+      padding: 1.5rem;
+      color: #fff;
+      background-color: #00503d;
+      border-radius: 25px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.367);
+      transition: all 0.2s ease;
+    }
 
-#order-button:hover {
-  border: solid 2px #00503d;
-  color: #00503d;
-  background: transparent;
-}
+    #order-button:hover {
+      border: solid 2px #00503d;
+      color: #00503d;
+      background: transparent;
+    }
 
-#bg-food {
-  width: 25rem;
-  height: 25rem;
-  margin: auto;
-  background-image: url("img/salmon-salad.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: all 0.2s ease-in;
-}
+    #bg-food {
+      width: 25rem;
+      height: 25rem;
+      margin: auto;
+      background-image: url("img/salmon-salad.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: all 0.2s ease-in;
+    }
 
-.fade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 10;
-}
+    .fade {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 10;
+    }
 
-#food-cart {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 2rem 1rem;
-  width: 20rem;
-  border-radius: 25px;
-  font-size: 1.2rem;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.367);
-  z-index: 15;
+    #food-cart {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 2rem 1rem;
+      width: 20rem;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.367);
+      cursor: pointer;
+      z-index: 15;
+    }
 
-}
+    #food-cart h3 {
+      text-align: center;
+    }
 
-#food-cart h3 {
-  text-align: center;
-}
+    #food-cart img {
+      width: 5rem;
+    }
 
-#food-cart img {
-  width: 5rem;
-}
+    #food-cart .food-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin: 1rem 0;
+    }
 
-#food-cart .food-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin: 1rem 0;
-}
+    #food-cart .food-item .food-description {
+      width: 10rem;
+    }
 
-#food-cart .food-item .food-description {
-  width: 10rem;
-}
+    #food-cart .food-item .food-quantinty {
+      background-color: black;
+      color: white;
+      border-radius: 25px;
+      padding: 0 0.5rem;
+      font-size: 0.8rem;
+    }
 
-#food-cart .food-item .food-quantinty {
-  background-color: black;
-  color: white;
-  border-radius: 25px;
-  padding: 0 0.5rem;
-  font-size: 0.8rem;
-}
+    #food-cart .totals {
+      padding: 1rem;
+      background-color: rgba(0, 255, 255, 0.193);
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 1rem;
+    }
 
-#food-cart .totals {
-  padding: 1rem;
-  background-color: rgba(0, 255, 255, 0.193);
-  border-radius: 25px;
-  font-weight: 700;
-  font-size: 1rem;
-}
+    #food-cart .totals .totals-item {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+    }
 
-#food-cart .totals .totals-item {
-  margin-bottom: 1rem;
-  display: flex;
-  justify-content: space-between;
-}
+    #food-cart .totals .totals-item.time {
+      border: 2px dotted;
+      border-radius: 25px;
+      padding: 0.5rem;
+    }
 
-#food-cart .totals .totals-item.time {
-  border: 2px dotted;
-  border-radius: 25px;
-  padding: 0.5rem;
-}
+    #food-cart .total-to-pay {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      padding: 1rem;
+      font-size: 1rem;
+      background-color: black;
+      color: white;
+      border-radius: 0 25px 25px 0;
+    }
 
-#food-cart .total-to-pay {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-  padding: 1rem;
-  font-size: 1rem;
-  background-color: black;
-  color: white;
-  border-radius: 0 25px 25px 0;
-}
+    #food-cart .total-to-pay button {
+      padding: 0.5rem 2rem;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
 
-#food-cart .total-to-pay button {
-  padding: 0.5rem 2rem;
-  border-radius: 25px;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
+    #food-cart .total-to-pay strong {
+      font-size: 1.2rem;
+    }
 
-#food-cart .total-to-pay strong {
-  font-size: 1.2rem;
-}
+    .menu {
+      margin-top: -1rem;
+      display: flex;
+      justify-content: space-around;
+    }
 
-.menu {
-  margin-top: -1rem;
-  display: flex;
-  justify-content: space-around;
-}
+    .food-card {
+      margin-top: -2.5rem;
+      background: white;
+      width: 15rem;
+      text-align: center;
+      border-radius: 25px;
+      box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.158);
+      transition: all 0.2s ease-in-out;
+    }
 
-.food-card {
-  margin-top: -2.5rem;
-  background: white;
-  width: 15rem;
-  text-align: center;
-  border-radius: 25px;
-  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.158);
-  transition: all 0.2s ease-in-out;
-}
+    .cover {
+      width: 15rem;
+      height: 13.5rem;
+      position: absolute;
+      z-index: 5;
+    }
 
-.cover {
-  width: 15rem;
-  height: 13.5rem;
-  position: absolute;
-  z-index: 5;
-}
+    .food-card.selected-food {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.396);
+    }
 
-.food-card.selected-food {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.396);
-}
+    .food-card .food-image {
+      margin-top: -3rem;
+      width: 10rem;
+    }
 
-.food-card .food-image {
-  margin-top: -3rem;
-  width: 10rem;
-}
+    .food-card .food-name {
+      font-weight: 700;
+    }
 
-.food-card .food-name {
-  font-weight: 700;
-}
+    .food-card .food-price {
+      font-weight: 700;
+      color: #acacac;
+    }
 
-.food-card .food-price {
-  font-weight: 700;
-  color: #acacac;
-}
+    .food-card .food-price::after {
+      content: "";
+      display: block;
+      width: 90%;
+      height: 1px;
+      background-color: #acacac;
+      margin: 1rem auto 0;
+    }
 
-.food-card .food-price::after {
-  content: "";
-  display: block;
-  width: 90%;
-  height: 1px;
-  background-color: #acacac;
-  margin: 1rem auto 0;
-}
+    .food-card .food-info {
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-around;
+    }
 
-.food-card .food-info {
-  padding: 1.5rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.food-card .food-info .food-quantinty {
-  width: 2rem;
-  z-index: 10;
-}
+    .food-card .food-info .food-quantinty {
+      width: 2rem;
+      z-index: 10;
+    }
   </style>
 </head>
 
