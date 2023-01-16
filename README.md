@@ -34,7 +34,7 @@ Site **Restaurante Delivery** simples feito em PHP, que tenta simular o usuário
 ---
 
 ## ✨ Funcionalidades
-- [x] Listagem estática de 4 pratos conténdo seus respectivos nome, imagem, preço, quantidade e tempo de preparo
+- [x] Listagem de 4 pratos conténdo seus respectivos nome, imagem, preço, quantidade e tempo de preparo
 - [x] Usuário pode selecionar 1 ou mais pratos do menu
 - [x] Pratos selecionados pelo usuário ficam visualmente destacados na página
 - [x] Imagem de fundo da página é alterada quando um prato é selecionado
@@ -45,7 +45,7 @@ Site **Restaurante Delivery** simples feito em PHP, que tenta simular o usuário
 ## 📖 Aprendizado
 - Passagem de dados de JavaScript para PHP através de Cookies;
 - Conversão de JSON para variáveis PHP;
-- Tratamento de objetos em JS e arrays associativos em PHP;
+- Tratamento de objetos em JavaScript e arrays associativos em PHP;
 - Abordagens diferentes de usar o loop for each tanto em JavaScript quanto em PHP;
 - Criação de Cookies com JavaScript e obtenção de dados contidos em Cookies com PHP.
 
