@@ -6,16 +6,16 @@
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/theme-switcher">
-   <a href="https://github.com/JohnPetros/theme-switcher/commits/main">
-      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/theme-switcher">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetrosRestaurante-Johns-Kitchen">
+   <a href="https://github.com/JohnPetrosRestaurante-Johns-Kitchen/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetrosRestaurante-Johns-Kitchen">
    </a>
   </a>
    </a>
-   <a href="https://github.com/JohnPetros/theme-switcher/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/theme-switcher">
+   <a href="https://github.com/JohnPetrosRestaurante-Johns-Kitchen/blob/main/LICENSE.md">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetrosRestaurante-Johns-Kitchen">
    </a>
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/theme-switcher?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetrosRestaurante-Johns-Kitchen?style=social">
 </div>
 
 <br>
