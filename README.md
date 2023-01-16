@@ -75,6 +75,12 @@ No link abaixo você encontra o layout no [Figma](http://figma.com/) o qual eu u
 
 ---
 
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
 <p align="center">
    Feito com 💜 by John Petros 👋🏻
 </p>
