@@ -1,24 +1,10 @@
 <h1 align="center">
-  John's Kitchen 🍽️
+  John's Kitchen
 </h1>
 
-<div align="center">
-   <a href="https://github.com/JohnPetros">
-      <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
-   </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/theme-switcher">
-   <a href="https://github.com/JohnPetros/theme-switcher/commits/main">
-      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/theme-switcher">
-   </a>
-  </a>
-   </a>
-   <a href="https://github.com/JohnPetros/theme-switcher/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/theme-switcher">
-   </a>
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/theme-switcher?style=social">
-</div>
+![Jonh's Kithcen - Google Chrome 07_10_2022 13_19_20](https://user-images.githubusercontent.com/93893533/194601010-cec2a1d1-639b-4e71-99c0-b9860e6bdf13.png)
 
-<br>
+<br />
 
 ## 💻 Projeto
 
@@ -28,7 +14,7 @@ Site **Restaurante Delivery** simples feito em PHP, que tenta simular o usuário
 
 ### Demonstração
 <div align="center">
-    <img width="750" alt="GIF demontrando o John's Kitchen" src=".github/johns-kitchen.gif" />
+    <img width="750" alt="GIF demontrando o theme switcher" src=".github/theme-switcher.gif" />
 </div>
 
 ---
@@ -62,13 +48,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 
 ✔️ **[HTML](https://developer.mozilla.org/pt-BR/docs-Web/HTML)**
 
----
-## ⚙️ Deploy
 
-O deploy desse projeto foi realizado através do **[Railway](https://railway.app/)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](https://restaurante-johns-kitchen-production.up.railway.app/)**
-
----
-## 🎨 Layout
+## 🎨 Layout:
 No link abaixo você encontra o layout no [Figma](http://figma.com/) o qual eu usei como inspiração para criar esse projeto. Lembrando que você precisa ter uma conta Figma no para acessá-lo.
 
 - [Layout](https://www.figma.com/file/dnmpZRvkoGsnx12TVuHeTs/Restaurant-Website-(Community)?node-id=0%3A1)
