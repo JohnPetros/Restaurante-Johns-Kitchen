@@ -210,6 +210,7 @@ if (isset($_COOKIE['foodData'])) {
       width: 15rem;
       height: 13.5rem;
       position: absolute;
+      cursor: pointer;
       z-index: 5;
     }
 
