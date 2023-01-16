@@ -6,7 +6,7 @@
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetrosRestaurante-Johns-Kitchen">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/Restaurante-Johns-Kitchen">
    <a href="https://github.com/JohnPetros/Restaurante-Johns-Kitchen/commits/main">
       <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/Restaurante-Johns-Kitchen">
    </a>
